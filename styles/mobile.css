@@ -1,0 +1,319 @@
+@media only screen and (max-width: 1300px) {
+    
+    .navbar, 
+    .head-btn, 
+    .foot-btn, 
+    .projects-nav, 
+    .projects-img, 
+    .arrows,
+    .masurement-fon,
+    .container-pig,
+    .team-content__nav,
+    .team-img,
+    .our-clients,
+    .map {
+        display: none;
+    }
+
+    .header, .footer {
+        background-color: #252525;
+    }
+
+    .title {
+        font-size: 22px;
+        line-height: 138.6%;
+        text-align: center;
+    }
+    
+    .text {
+        font-size: 11px;
+        line-height: 18px;
+        text-align: center;
+        color: white;
+    }
+
+/* home page */
+
+    .container {
+        width: 340px;
+    }
+    
+    .title-home {
+        font-size: 23px;
+        line-height: 132.83%
+    }
+
+    .home-text {
+        font-size: 14px;
+        width: 340px
+    }
+
+    .btn-secondary {
+       width: 338px;
+    }
+
+    .btn-secondary ~ .btn-secondary {
+        margin-top: 26px;
+        margin-left: 0;
+    }
+    
+/* projects page*/
+
+    .title-projects {
+        margin-bottom: 22px;
+    }
+
+    .projects-text {
+        width: 310px;
+        margin: 0 auto 70px;
+    }
+
+    .mini-title {
+        font-size: 14px;
+        line-height: 138.6%;
+        text-align: left;
+    }
+
+    .projects-mobile__img {
+        display: block;
+        position: relative;
+        z-index: 1;
+    }
+
+    .mobile-arrows {
+        display: flex;
+	    justify-content: space-between;
+        height: 11px;
+        width: 320px;
+        position: absolute;
+        top: 50%;
+    }
+
+    .mobile-arrow {
+        border: 1px white solid;
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        position: absolute;
+        left: 8%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+    }
+
+    .mobile-arrow__right {
+        transform:rotateY(180deg);
+        top: -160%;
+        left: 91%;
+    }
+
+    .mobile-arrow:hover {
+        border: 0;
+        background-color: #E3B873;
+    }
+    
+    .mobile-arrow::after {
+        content: url("../logo/mobile-arrow.svg");
+        position: absolute;
+        z-index: 101;
+        top: 60%;
+        left: 46%;
+        transform: translate(-50%, -50%);
+    }
+
+    .projects {
+        padding-bottom: 350px;
+        background-color: #252525;
+    }
+
+
+/* video projects page*/
+   
+    .video {
+        max-width: 340px;
+    }
+
+    .control {
+        background-color: #252525;
+        padding-bottom: 63px;
+    }
+
+    .control-text {
+        width: 340px;
+        color: white;
+    }
+    
+    .play {
+        width: 37px;
+	    height: 37px;
+    }
+
+    .play::after {
+        border-top: 7px solid transparent;
+        border-left: 12px solid white;
+        border-bottom: 7px solid transparent;
+        left: 55%;
+    }
+
+    .line {
+        margin: 28px auto 21px;
+    }
+
+/* form */
+
+    .control-form__main {
+        width: 340px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .control-label {
+        margin-bottom: 60px;
+        width: 340px;
+    }
+
+    input[type=checkbox]:after {
+        border: 1px solid white;
+    }
+
+    .form input::placeholder {
+        color: white;
+    }
+
+    .checkbox {
+        color: white;
+        margin-top: -111px;
+    }
+
+    .btn-control {
+        margin-top: 40px;
+        width: 340px;
+        height: 51px;
+        margin-left: 0;
+    }
+
+    .opacity {
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+/* Types of repair */
+
+    .title2 {
+        margin-top: 100px;
+    }
+
+    .block {
+        margin-left: -1px;
+    }
+
+    .measurement-content__main {
+        grid-gap: 59px;
+        width: 340px;
+        margin: 0 auto;
+    }
+    
+    .btn3 {
+        font-size: 15px;
+        line-height: 138.6%;
+        margin-left: 0;
+    }
+
+    .measurment-block {
+        width: 340px;
+    }
+
+    .title-block{
+        text-align: left;
+    }
+    
+    .measurment-block img {
+        width: 340px;
+        margin: 0 auto;
+    }
+
+/* We realize your wildest fantasies */
+
+    .team-container {
+        background: #252525;
+        height: 150px;
+    }
+    
+    .team-content h3 {
+        font-size: 22px;
+        line-height: 138.6%;
+        padding: 0;
+        margin-top: -202px;
+        margin-bottom: 17px;
+    }
+
+    .team-other {
+        justify-content: center;
+    }
+
+/* have any questions */
+
+    .our-clients {
+        background: #252525;
+    }
+
+    .form2 {
+        width: 340px;
+        background-color: #252525;
+        margin: 0 auto;
+        height: auto;
+    }
+    
+    .contacts-form {
+        width: 340px;
+        margin: 0 auto;
+    }
+    
+    .name-phone {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .contacts-lable {
+        margin-bottom: 60px;
+    }
+
+    .checkbox3 {
+        margin-top: -40px;
+    }
+
+    .form-row {
+        margin-bottom: 60px;
+    }
+
+    .btn-row {
+        width: 340px;
+    }
+
+/* contact */
+
+    .contacts {
+        background: #252525;
+        height: auto;
+    }
+
+    .map-mobile {
+        display: block;
+        margin: 0 auto;
+        padding-top: 46px;
+    }
+
+    .inst-email {
+        margin: 26px auto 0;
+    }
+
+    .contact-text {
+        padding-top: 41px;
+        font-size: 18px;
+        line-height: 138.6%;
+        width: 310px;
+    }
+
+    .our-client {
+        background-color: #252525;
+    }
+    
+}
